@@ -20,7 +20,6 @@ typedef std::function<void(const std::string msg)> subscribe_callback;
 extern "C" void redis_async_callback(redisAsyncContext *, void *reply,
                                      void *privdata);
 
-typedef void(redisCallbackFn)(struct redisAsyncContext *, void *, void *);
 class RedisClient {
 private:
   const std::string hostname_;
