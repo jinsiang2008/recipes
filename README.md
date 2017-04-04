@@ -1,5 +1,6 @@
 # README
 ------
-A repository to store my code recipes
+A repository of my code recipes
 
-+ Thrift code snippets
++ Thrift demo server/client
++ Simple hiredis C++ subscribption wrapper
