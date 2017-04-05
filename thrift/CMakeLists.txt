@@ -24,5 +24,7 @@ add_executable(hello_server ${SERVER_FILES} ${GEN_FILES})
 
 target_link_libraries(hello_client thrift)
 
-target_link_libraries(hello_server thrift)
+# add jemalloc for fun
+# test whether jemalloc is in use, `lsof -n | grep jemalloc`
+target_link_libraries(hello_server thrift jemalloc)
 
