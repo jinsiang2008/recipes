@@ -6,5 +6,9 @@ A repository of my code recipes
 + Simple hiredis C++ subscribption wrapper
 
 ## TODO
-+ Link jemalloc
-+ Python recipes like pyzmq, prompt-toolkit or built-in libs (like PYMOTW)
+### Python recipes
+    + pyzmq
+    + greenlet
+    + tornado
+    + prompt-toolkit
+    + built-in libs (like PYMOTW, usage with explanations)
