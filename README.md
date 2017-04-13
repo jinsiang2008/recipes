@@ -6,6 +6,9 @@ A repository of my code recipes
 + Simple hiredis C++ subscribption wrapper
 
 ## TODO
+
+### C/C++ recipes
+	  + gtest/gmock
 ### Python recipes
     + pyzmq
     + greenlet
