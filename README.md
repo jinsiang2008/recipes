@@ -9,9 +9,11 @@ A repository of my code recipes
 
 ### C/C++ recipes
 	  + gtest/gmock
+
 ### Python recipes
     + pyzmq
     + greenlet
     + tornado
     + prompt-toolkit
     + built-in libs (like PYMOTW, usage with explanations)
+    + Sphinx documentation
