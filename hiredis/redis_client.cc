@@ -71,7 +71,6 @@ public:
 };
 
 int main(int argc, char **argv) {
-  std::cout << "Main" << std::endl;
   RedisClient client("127.0.0.1", 6379);
   client.connect();
   Config config;

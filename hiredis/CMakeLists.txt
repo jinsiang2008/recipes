@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.6)
-project(thc)
+project(hiredis_wrapper)
 
 message(STATUS "Generate redis client")
 set(CMAKE_CXX_STANDARD 11)
