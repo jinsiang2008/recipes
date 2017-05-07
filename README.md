@@ -8,7 +8,7 @@ A repository of my code recipes
 ## TODO
 
 ### C/C++ recipes
-	  + gtest (https://github.com/Wilbeibi/cpp_subprocess)
+    + gtest (https://github.com/Wilbeibi/cpp_subprocess)
     + gmock
     + gflags
     + clang check
