@@ -11,8 +11,10 @@ struct redisAsyncContext;
 
 typedef std::unique_ptr<event_base, void (*)(event_base *)>
     event_base_unique_ptr;
-
-typedef std::unique_ptr<redisAsyncContext, void (*)(redisAsyncContext *)>
+// NOTE: if initialize unique_ptr while knowing the destory function,
+// deleter can use decltype instead
+// Refer: https://github.com/pinterest/rocksplicator/blob/master/tgrep/tgrep.cpp#L52
+typedef std::unique_ptr<redisAsyncContext, void (*)(redisAsyncContext *)> 
     redisAsyncContext_unique_ptr;
 
 typedef std::function<void(const std::string msg)> subscribe_callback;

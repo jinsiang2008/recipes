@@ -7,13 +7,15 @@ A repository of my code recipes
 
 ## TODO
 
-### C/C++ recipes
+### C++ recipes
     + gtest (https://github.com/Wilbeibi/cpp_subprocess, with AddGlobalTestEnvironment)
     + gmock
     + gflags
     + clang check
 	  + boost usages
 
+### C recipes
+	  + libpcap usage (sniffex.c in http://www.tcpdump.org/pcap.html)
 
 ### Python recipes
     + pyzmq
