@@ -17,3 +17,8 @@ gen-py/
 # Draft
 __*.md
 
+# C/C++
+*.dSYM
+
+# Executable
+sniffex
