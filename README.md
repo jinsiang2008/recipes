@@ -11,11 +11,12 @@ A repository of my code recipes
     + gtest (https://github.com/Wilbeibi/cpp_subprocess, with AddGlobalTestEnvironment)
     + gmock
     + gflags
-    + clang check
+    + clang check  
 	  + boost usages
 
 ### C recipes
 	  + libpcap usage (sniffex.c in http://www.tcpdump.org/pcap.html)
+    + Import a [http_parser](https://github.com/facebook/proxygen/tree/master/proxygen/external/http_parser)
 
 ### Python recipes
     + pyzmq

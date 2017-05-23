@@ -30,3 +30,16 @@ bool asciiString(const std::string& str) {
 // Get number of CPU
 // from <unistd.h>
 sysconf(_SC_NPROCESSORS_ONLN);
+
+
+// Is T one of T1, T2, ..., Tn?
+// From folly/Traits.h
+template <class T, class... Ts>
+struct IsOneOf {
+  enum { value = false };
+};
+
+template <class T, class T1, class... Ts>
+struct IsOneOf<T, T1, Ts...> {
+  enum { value = std::is_same<T, std::decay<T1>::type>::value || IsOneOf<T, Ts...>::value };
+};

@@ -17,3 +17,7 @@ del l
 print('Class: {}:\n'.format(getattr(cls, '__name__')))
 print('Initial RAM usage: {:14,}'.format(mem_init))
 print('  Final RAM usage: {:14,}'.format(mem_final))
+
+""" Replace default memory allocator with jemalloc
+$ LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libjemalloc.so.1 python app.py
+"""
