@@ -24,7 +24,8 @@ A repository of my code recipes
     + tornado
     + prompt-toolkit
     + built-in libs (like PYMOTW, usage with explanations)
-    + Sphinx documentation
+    + Sphinx documentation  
+	  + Cython examples
 
 ### Tools
 	  + Apache ab usage for test benchmark
