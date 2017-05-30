@@ -43,3 +43,13 @@ template <class T, class T1, class... Ts>
 struct IsOneOf<T, T1, Ts...> {
   enum { value = std::is_same<T, T1>::value || IsOneOf<T, Ts...>::value };
 };
+
+// Random generator (non-crypto)
+// https://www.guyrutenberg.com/2014/05/03/c-mt19937-example/#comment-1897375
+// https://github.com/facebook/rocksdb/blob/master/util/random.h#L83
+#include <random>
+uint64_t random64(uint64_t bound) {
+  std::mt19937_64 gen(time(nullptr)); // or std::default_random_engine
+  // std::uniform_real_distribution for float point
+  return std::uniform_int_distribution<uint64_t>(0, bound)(gen);
+}
