@@ -29,3 +29,6 @@ A repository of my code recipes
 
 ### Tools
 + Apache ab usage for test benchmark
+
+### Clipings
++ A collection of pdf book clippings

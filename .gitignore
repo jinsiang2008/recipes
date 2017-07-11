@@ -22,3 +22,10 @@ __*.md
 
 # Executable
 sniffex
+
+# Doc
+docs/_build/
+
+# Misc
+.DS_Store
+.idea

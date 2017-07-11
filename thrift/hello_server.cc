@@ -22,12 +22,14 @@ public:
 };
 
 int main() {
+	  int port = 9090;
     auto handler = make_shared<HelloSvcHandler>();
     auto proc = make_shared<HelloSvcProcessor>(handler);
-    auto trans_svr = make_shared<TServerSocket>(9090);
+    auto trans_svr = make_shared<TServerSocket>(port);
     auto trans_fac = make_shared<TBufferedTransportFactory>();
     auto proto_fac = make_shared<TBinaryProtocolFactory>();
     TSimpleServer server(proc, trans_svr, trans_fac, proto_fac);
+    std::cout << "Hello server start listening on port " << port << std::endl;
     server.serve();
     return 0;
 }
