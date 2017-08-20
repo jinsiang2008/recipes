@@ -13,10 +13,11 @@ A repository of my code recipes
 + gflags
 + clang check  
 + boost usages
++ openssl 
 
 ### C recipes
 + libpcap usage (sniffex.c in http://www.tcpdump.org/pcap.html)
-+ Import a [http_parser](https://github.com/facebook/proxygen/tree/master/proxygen/external/http_parser)
++ Import a [http parser](https://github.com/facebook/proxygen/tree/master/proxygen/external/http_parser)
 
 ### Python recipes
 + pyzmq
