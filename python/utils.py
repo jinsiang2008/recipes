@@ -18,4 +18,6 @@ my_func.__doc__
 # https://stackoverflow.com/questions/1911281/how-do-i-get-list-of-methods-in-a-python-class
 # inspect.getmembers()
 
-
+# Get CPU numbers
+from multiprocessing import cpu_count
+print (cpu_count())
