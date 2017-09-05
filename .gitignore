@@ -16,6 +16,7 @@ gen-py/
 
 # Draft
 __*.md
+TODO*
 
 # C/C++
 *.dSYM

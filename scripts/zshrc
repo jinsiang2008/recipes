@@ -1,0 +1,24 @@
+mkcd() {
+    mkdir $1
+    cd $1
+}
+
+# POSIX, compatible with GNU and BSD
+rstrip() {
+    sed 's/[[:blank:]]*$//' $1
+}
+
+fcd() {
+    path=$(dirname "$(find -L . -type f -name $1 | head -n 1 )")
+    cd $path
+}
+
+fvim() {
+    vim $(find -L . -type f -name $1 | head -n 1)
+}
+
+
+clang-format-diff() {
+    clang-format $1 | diff $1 -
+}
+
