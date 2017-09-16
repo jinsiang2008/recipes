@@ -21,7 +21,7 @@ A repository of my code recipes
 
 ### Python recipes
 + pyzmq
-+ greenlet
++ greenlet/gevent
 + tornado
 + prompt-toolkit
 + built-in libs (like PYMOTW, usage with explanations)
