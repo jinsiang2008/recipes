@@ -31,6 +31,7 @@ bool asciiString(const std::string& str) {
 // from <unistd.h>
 sysconf(_SC_NPROCESSORS_ONLN);
 
+// Or <thread> std::thread::hardware_concurrency()
 
 // Is T one of T1, T2, ..., Tn?
 // From folly/Traits.h
