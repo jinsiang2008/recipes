@@ -28,6 +28,11 @@ A repository of my code recipes
 + Sphinx documentation  
 + Cython examples
 
+### Go recipes
++ groupcache
+
+### Rust recipes
+
 ### Tools
 + Apache ab usage for test benchmark
 
