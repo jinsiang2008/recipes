@@ -9,3 +9,10 @@
 + <kbd>⌘</kbd> + Left/Right to go to first/last character of line
 + <kbd>⌘</kbd> + <kbd>Shift</kbd> + <kbd>N</kbd> to open a new window
 + <kbd>Ctrl</kbd> + <kbd>G</kbd>: go to line
+
+## psql
++ `\l` or `\list`: list all databases
++ `\c db_name`: connect to database
++ `\dt`: describe tables
++ `\d table_name`: describle table schema, `\d+` for more
++ `\dF`: describe full text flag, `dF+` for more detailed info
