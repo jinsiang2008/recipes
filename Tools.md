@@ -16,3 +16,7 @@
 + `\dt`: describe tables
 + `\d table_name`: describle table schema, `\d+` for more
 + `\dF`: describe full text flag, `dF+` for more detailed info
+
+## sqlite3
++ `.schema`: Print the database structure
++ `.explain on`: Turn on column names on query results`
