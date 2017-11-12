@@ -13,9 +13,12 @@
 ## psql
 + `\l` or `\list`: list all databases
 + `\c db_name`: connect to database
++ `\q`: disconnect
++ `\conninfo`
 + `\dt`: describe tables
 + `\d table_name`: describle table schema, `\d+` for more
 + `\dF`: describe full text flag, `dF+` for more detailed info
+
 
 ## sqlite3
 + `.schema`: Print the database structure
