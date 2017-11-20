@@ -39,3 +39,5 @@ A repository of my code recipes
 
 ### Clipings
 + A collection of pdf book clippings
+
+### Other recipes
