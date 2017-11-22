@@ -23,3 +23,6 @@
 ## sqlite3
 + `.schema`: Print the database structure
 + `.explain on`: Turn on column names on query results`
+
+## Chrome
++ `<kbd>Shift</kbd>+<kbd>FN</kbd>+<kbd>Delete</kbd>` Delete address bar suggestion
