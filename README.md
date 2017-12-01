@@ -13,16 +13,16 @@ A repository of my code recipes
 + gflags
 + clang check  
 + boost usages
-+ openssl 
++ openssl
++ CMake e.g. (fbthrift/CMakeLists.txt rsocket-cpp/CMakeLists.txt)
 
 ### C recipes
 + libpcap usage (sniffex.c in http://www.tcpdump.org/pcap.html)
 + Import a [http parser](https://github.com/facebook/proxygen/tree/master/proxygen/external/http_parser)
 
 ### Python recipes
-+ pyzmq
 + greenlet/gevent
-+ tornado
++ twisted
 + prompt-toolkit
 + built-in libs (like PYMOTW, usage with explanations)
 + Sphinx documentation  
