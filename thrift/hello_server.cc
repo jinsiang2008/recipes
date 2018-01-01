@@ -22,7 +22,7 @@ public:
 };
 
 int main() {
-	  int port = 9090;
+	int port = 9090;
     auto handler = make_shared<HelloSvcHandler>();
     auto proc = make_shared<HelloSvcProcessor>(handler);
     auto trans_svr = make_shared<TServerSocket>(port);
