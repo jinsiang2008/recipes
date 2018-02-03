@@ -27,3 +27,18 @@
 
 ## Chrome
 + `<kbd>Shift</kbd>+<kbd>FN</kbd>+<kbd>Delete</kbd>` Delete address bar suggestion
+
+# Supervisord
+```
+# /etc/supervisor/conf.d/*.conf
+[program:test1]
+command=python test1.py
+directory=/path/to/test1_dir
+user=wilbeibi
+autorestart=true
+redirect_stderr=true
+stdout_logfile=/var/log/test1.log
+```
+
+## Alfred workflows
++ `dash python3: os.path`
