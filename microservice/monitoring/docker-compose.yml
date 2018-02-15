@@ -1,0 +1,27 @@
+# docker-compose up -d: pull and start contianers group as daemon
+# docker-compose down: clean file from host
+# Use specific version of images (not lastest)
+version: "2"
+services:
+  prometheus:
+    image: prom/prometheus:v2.1.0
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml # src:dst
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+    ports:
+      - "9090:9090"
+    depends_on:
+      - node-exporter
+  node-exporter:
+    image: prom/node-exporter:v0.15.2
+    ports:
+      - "9100:9100"
+  grafana:
+    image: grafana/grafana:4.6.3
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=passwd
+    ports:
+      - "3000:3000"
+    depends_on:
+      - prometheus
