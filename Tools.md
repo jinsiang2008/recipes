@@ -26,7 +26,7 @@
 + `.explain on`: Turn on column names on query results`
 
 ## Chrome
-+ `<kbd>Shift</kbd>+<kbd>FN</kbd>+<kbd>Delete</kbd>` Delete address bar suggestion
++ <kbd>Shift</kbd> + <kbd>fn</kbd> + <kbd>Delete</kbd> Delete address bar suggestion
 
 # Supervisord
 ```
