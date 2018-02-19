@@ -42,3 +42,6 @@ stdout_logfile=/var/log/test1.log
 
 ## Alfred workflows
 + `dash python3: os.path`
+
+## Emoji
+🛢️ 📰 💾 🖥️ 📱 💣 🚚 🚢 🗿 🚀
