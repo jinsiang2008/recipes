@@ -44,4 +44,7 @@ stdout_logfile=/var/log/test1.log
 + `dash python3: os.path`
 
 ## Emoji
-🛢️ 📰 💾 🖥️ 📱 💣 🚚 🚢 🗿 🚀
+🛢️ 📰 💾 🖥️ 📱 💣 🚚 🚢 🗿 🚀 🏄 🔧 ☕️ 🦊
+
+## Mac tools
++ mac2imgur
