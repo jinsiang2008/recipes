@@ -41,8 +41,27 @@ stdout_logfile=/var/log/test1.log
 ```
 
 ## Alfred workflows
-+ `dash python3: os.path`
++ `dash python3: os.path`: Dash Doc search
 
+## zsh
++ `zmv '(*).txt' '(*)'.html`: file renaming
++ `cd /u/l/b <TAB>`: cd path completion
++ `kill <TAB>`: TAB can almost complete anything in zsh
++ `vim Lists <TAB>`: type only part of filename can be complete too.
++ `ls **/CMakeLists.txt`: ** for recursive search
++ `ls -lah **/*(Lm+20)`: recursively find files over 20 MB.
++ edit long command in <kbd>Crtl</kbd> + <kbd>X</kbd> + <kbd>Crtl</kbd> + <kbd>E</kbd>
++ more [why-zsh](https://code.joejag.com/2014/why-zsh.html)
+
+
+## iTerm2
++ Previous Tab : <kbd>⌘</kbd> + Left Arrow
++ Next Tab : <kbd>⌘</kbd> + Ri ght Arrow
++ Go to Tab : <kbd>⌘</kbd>  + Number
++ Split Window Horizontally (same profile) : <kbd>⌘</kbd>  + <kbd>D</kbd> 
++ Split Window Vertically (same profile) : <kbd>⌘</kbd>  + <kbd>d</kbd> 
++ Font larger : <kbd>⌘</kbd>  + <kbd>+</kbd> 
++ Font larger : <kbd>⌘</kbd> + <kbd>-</kbd> 
 ## Emoji
 🛢️ 📰 💾 🖥️ 📱 💣 🚚 🚢 🗿 🚀 🏄 🔧 ☕️ 🦊
 
