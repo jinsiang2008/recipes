@@ -48,3 +48,12 @@ stdout_logfile=/var/log/test1.log
 
 ## Mac tools
 + mac2imgur
+
+## ZSH
++ `cd /u/l/b`: path expansion
++ `cd site1 site2`: path replacement, if you were in /srv/www/site1/current/log, it will go to /srv/www/site2/current/log via this command
++ `ls -l **/*.log`: extened globbing, **/ = recursive
++ `zmv '(*).txt' 'template_$1.html'`: rename files
++ `ls -l zsh_demo/**/*(. Lm-2 mh-1 om)`: ls files under zsh_demo recursively, `Lm-2` for less than 2mb (similarly, `Lm+30` for over 30mb, m for megabytes, k for kilobytes, or nothing for just bytes), `mh-1` for files modified in the last hour (M for Months, w for weeks, h for hours, m for minutes, and s for seconds), `om` to o(rder) by modification date, o for most recent, O vise vesa, m for modifcaion date, or L to sort by size.
+
++ [Master Your Z Shell with These Outrageously Useful Tips](http://reasoniamhere.com/2014/01/11/outrageously-useful-tips-to-master-your-z-shell/)
