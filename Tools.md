@@ -48,6 +48,7 @@ stdout_logfile=/var/log/test1.log
 
 ## Mac tools
 + mac2imgur
++ Mac 10.12 不允许第三方来源的app安装了，要`sudo spctl --master-disable`
 
 ## ZSH
 + `cd /u/l/b`: path expansion
