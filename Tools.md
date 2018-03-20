@@ -10,6 +10,7 @@
 + <kbd>⌘</kbd> + <kbd>Shift</kbd> + <kbd>N</kbd> to open a new window
 + <kbd>Ctrl</kbd> + <kbd>G</kbd>: go to line
 + <kbd>⌘</kbd> + <kbd>Shift</kbd> + <kbd>k</kbd> to delete current line
++ `"editor.minimap.enabled": false`: to disable minimap
 
 ## psql
 + `\l` or `\list`: list all databases
