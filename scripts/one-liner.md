@@ -9,3 +9,7 @@
     - `-P` turns on `--partial` and `--progress`
     - `--partial` makes rsync keep partially transferred files if the transfer is interrupted
     - `--progress` shows a progress bar for each transfer, useful if you transfer big files
+5. netstat: -l/--listening, -a/--all, -t/--tcp, -u/--udp, -n/--numeric
+    - `netstat -atn` check listening TCP ports
+    - `netstat -atn` check listening UCP ports
+    - `netstat -atun` check listening on both ports
