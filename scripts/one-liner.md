@@ -9,3 +9,4 @@
     - `-P` turns on `--partial` and `--progress`
     - `--partial` makes rsync keep partially transferred files if the transfer is interrupted
     - `--progress` shows a progress bar for each transfer, useful if you transfer big files
+5. `cat /proc/sys/kernel/random/entropy_avail`: Check entropy pool size (below 200 is not good)
