@@ -13,3 +13,4 @@
     - `netstat -atn` check listening TCP ports
     - `netstat -atn` check listening UCP ports
     - `netstat -atun` check listening on both ports
+6. `cat /proc/sys/kernel/random/entropy_avail`: Check entropy pool size (below 200 is not good)
