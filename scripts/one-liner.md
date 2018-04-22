@@ -14,3 +14,6 @@
     - `netstat -atn` check listening UCP ports
     - `netstat -atun` check listening on both ports
 6. `cat /proc/sys/kernel/random/entropy_avail`: Check entropy pool size (below 200 is not good)
+7. `curl -w "TCP handshake: %{time_connect}， SSL handshake: %{time_appconnect}\n" -so /dev/null https://www.google.com`
+    - HTTP time: TCP handshake
+    - HTTPS time: TCP handshake + SSL handshake
