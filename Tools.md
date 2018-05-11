@@ -21,6 +21,8 @@
 + `\d table_name`: describle table schema, `\d+` for more
 + `\dF`: describe full text flag, `dF+` for more detailed info
 
+## mysql
++ `SHOW [FULL] PROCESSLIST;`: usefull commands to show running threads and connections  
 
 ## sqlite3
 + `.schema`: Print the database structure
