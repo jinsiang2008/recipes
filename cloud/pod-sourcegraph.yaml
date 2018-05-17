@@ -1,0 +1,27 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: sourcegraph
+  labels:
+    name: sourcegraph
+spec:
+  volumes:
+    - name: "sg-config"
+      hostPath:
+        path: "/data/sourcegraph/config"
+    - name: "sg-data"
+      hostPath:
+        path: "/data/sourcegraph/data"
+  containers:
+    - image: sourcegraph/server
+      name: sourcegraph
+      volumeMounts:
+        - mountPath: "/etc/sourcegraph"
+          name: "sg-config"
+        - mountPath: "//var/opt/sourcegraph"
+          name: "sg-data"          
+      ports:
+        - containerPort: 7080
+          name: http
+          protocol: TCP
+# kubectl expose pod sourcegraph --type=NodePort --name=sourcegraph         
