@@ -67,3 +67,4 @@ stdout_logfile=/var/log/test1.log
 
 ## Mise
 + [My Diigo Programming Notes](https://www.diigo.com/outliner/dzi0kh/Programming?key=a7q47wq9b2)
++ [LaTex cheat sheet](https://wch.github.io/latexsheet/)

@@ -1,3 +1,4 @@
+## Useful images
 1. Docker management UI: 
 ```
 docker run -d -p 9000:9000 \
@@ -14,3 +15,5 @@ docker run \
 --volume /tmp/sourcegraph/data:/var/opt/sourcegraph \
 sourcegraph/server
 ```
+### Go/Docker Makefile template
++ https://github.com/thockin/go-build-template
