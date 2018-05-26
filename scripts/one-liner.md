@@ -17,3 +17,6 @@
 7. `curl -w "TCP handshake: %{time_connect}， SSL handshake: %{time_appconnect}\n" -so /dev/null https://www.google.com`
     - HTTP time: TCP handshake
     - HTTPS time: TCP handshake + SSL handshake
+8. `pv`: "pipe viewer", show stats on data going through a pipe
+9. `ncdu`: disk usage analyzer with an ncurses interface
+10. `common`: find lines 2 files have in common
