@@ -17,3 +17,9 @@
 7. `curl -w "TCP handshake: %{time_connect}， SSL handshake: %{time_appconnect}\n" -so /dev/null https://www.google.com`
     - HTTP time: TCP handshake
     - HTTPS time: TCP handshake + SSL handshake
+8. `pv`: "pipe viewer", show stats on data goi ng through a pipe
+9. `sed s/foo/bar/g file.txt`, `foo` can be a regular expression
+    - GNU and BSD sed behaviors differently in `-i`, so [always use](https://stackoverflow.com/a/22084103/1035859) `-i.bak`
+    - `sed -n 12p` print 12th line, `sed -n 5, 30p` print liens 5-30. `-n` suppresses output so only `p`'s part gets printed 
+    - `sed 5d` delete 5th line, `sed /foo/d` delete lines matching `/foo/`
+    - `sed '/foo/a bar'` append 'bar' after lines containing 'foo'
