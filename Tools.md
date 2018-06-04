@@ -55,6 +55,7 @@ stdout_logfile=/var/log/test1.log
 + Mac 10.12 不允许第三方来源的app安装了，要`sudo spctl --master-disable`
 + Monodraw: ASCII diagram for illustration, banners
 + <kbd>⌘</kbd> + <kbd>Shift</kbd> + <kbd>⌃</kbd> + <kbd>4</kbd>: copy picture of selected area to the clipboard
++ `sshfs <user>@<host>:/remote/path /mount/point` to mount remote filesystem using SSH SFTP.
 
 ## ZSH
 + `cd /u/l/b`: path expansion

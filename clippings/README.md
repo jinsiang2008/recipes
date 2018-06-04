@@ -6,5 +6,10 @@
   - OpenSSL dependency
   - TCK_DRIVERS_JAR : Download TCK drivers
 
+- [Semantic Versioning][semver]
+  - Major number (API incompatibility)
+  - Minor number (Additional feature, but compatible)
+  - Patch number (bug fixes, etc)
 
 [rsocket]: https://github.com/rsocket/rsocket-cpp/blob/master/CMakeLists.txt
+[semver]:https://youtu.be/tISy7EJQPzI?t=17m15s
