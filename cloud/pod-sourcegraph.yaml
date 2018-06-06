@@ -18,7 +18,7 @@ spec:
       volumeMounts:
         - mountPath: "/etc/sourcegraph"
           name: "sg-config"
-        - mountPath: "//var/opt/sourcegraph"
+        - mountPath: "/var/opt/sourcegraph"
           name: "sg-data"          
       ports:
         - containerPort: 7080

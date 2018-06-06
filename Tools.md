@@ -67,6 +67,14 @@ stdout_logfile=/var/log/test1.log
 
 + [Master Your Z Shell with These Outrageously Useful Tips](http://reasoniamhere.com/2014/01/11/outrageously-useful-tips-to-master-your-z-shell/)
 
+## Git
+### Stash [ref](https://gist.github.com/subchen/3409a16cb46327ca7691)
++ `git stash save "message..."`: Save current work progress, staged/unstaged
++ `git stash list`
++ `git stash pop [--index] [<stash>]`: if not use parameter, recover the latest progress, and delete it from stash
++ `git stash apply [--index] [<stash>]`: same as pop, just not delete it.
++ `git stash clear`
+
 ## Mise
 + [My Diigo Programming Notes](https://www.diigo.com/outliner/dzi0kh/Programming?key=a7q47wq9b2)
 + [LaTex cheat sheet](https://wch.github.io/latexsheet/)
